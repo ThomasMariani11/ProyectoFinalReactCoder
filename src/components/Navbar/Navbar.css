@@ -1,0 +1,26 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px 20px;
+}
+.navbar-links a{
+    text-decoration: none;
+    color: white;
+}
+.navbar-links ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.navbar-logo{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.active{
+    background-color: violet;
+    border: 10px solid violet;
+    border-radius: 5px;
+}

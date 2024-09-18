@@ -1,0 +1,16 @@
+form input{
+    margin-top: 10px;
+    margin-bottom: 5px; 
+    display: flex;
+}
+
+.boton-compra{
+    color: white;
+    background-color: black;
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 100px;
+}
+form{
+    margin-left: 650px;
+}

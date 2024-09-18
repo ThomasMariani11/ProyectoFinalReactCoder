@@ -1,0 +1,34 @@
+.card-detail{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 16px;
+    width: 300px;
+    box-shadow: 0 4px 8px black;
+    background-color: grey;
+    margin-top: 14px;
+
+}
+
+.card-detail img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.outStock{
+    color: red;
+}
+.card2{
+    display: flex;
+    justify-content: center;
+}
+.stock{
+    text-align: center;
+}
+.link-compra{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: 3px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}

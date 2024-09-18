@@ -1,0 +1,43 @@
+.titulo{
+    text-align: center;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-around;
+}
+.botones button{
+    background-color: black;
+    color: white;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+.card-detail{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 16px;
+    width: 300px;
+    box-shadow: 0 4px 8px black;
+    transition: transform 0.2 ease-in-out,
+    box-shadow 0.2 ease-in-out;
+    background-color: grey;
+    text-decoration: none;
+    
+}
+.card1{
+    display: flex;
+    justify-content: center;
+}
+.total{
+    text-align: center;
+}
+.boton{
+    margin-left: 118px;
+    background-color: black;
+    color: white;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+.carrito{
+    margin-left: 95px;
+}

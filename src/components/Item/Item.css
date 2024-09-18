@@ -1,0 +1,44 @@
+.card{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 16px;
+    width: 300px;
+    box-shadow: 0 4px 8px black;
+    transition: transform 0.2 ease-in-out,
+    box-shadow 0.2 ease-in-out;
+    background-color: grey;
+    text-decoration: none;
+
+}
+.card:active{
+    transform: translateY(-10px);
+
+}
+
+.card:hover{
+    box-shadow: 0 8px 16px black;
+}
+.card h2{
+    color: black;
+    font-size: 1.5 rem;
+    margin: 10px 0;
+}
+.card-title{
+    color: violet;
+    font: bold;
+    text-align: center;
+}
+.descripcion{
+    color: white;
+    font: bold;
+    margin: 5px 0;
+    text-align: center;
+}
+.card img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
